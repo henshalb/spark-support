@@ -11,3 +11,31 @@
 - flask db upgrade
 - flask run --debug
 ```
+
+## Layered architecture
+```
+Uses layered structure, so that it does permit more
+distributed means for code structurng.
+```
+
+## APIs
+```
+1. http://127.0.0.1:5000/register
+   Request: 
+        {
+            "role": "MERCHANT" or "CUSTOMER",
+            "phone": "9999999999",
+            "username": "unique_user_name",
+            "last_name": "last_name",
+            "email": "unique@email.com",
+            "first_name": "first_name",
+            "password": "strong_password"
+        }
+
+2. http://127.0.0.1:5000/login
+   Request:
+        {
+            "email":"unique@email.com",
+            "password":"strong_password"
+        }
+```

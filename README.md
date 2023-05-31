@@ -38,4 +38,9 @@ distributed means for code structurng.
             "email":"unique@email.com",
             "password":"strong_password"
         }
+
+3. /store POST
+4. /store?id=1 GET
+5. /store?id=1 PUT
+6. /store?id=1 DELETE
 ```

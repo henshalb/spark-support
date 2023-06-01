@@ -43,4 +43,6 @@ distributed means for code structuring.
 4. /store?id=1 GET
 5. /store?id=1 PUT
 6. /store?id=1 DELETE
+7. /store GET --> All stores
+8. /merchantStore?id=1 GET --> All stores of a Merchant
 ```

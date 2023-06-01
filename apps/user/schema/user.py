@@ -26,3 +26,16 @@ class UserLoginSchema(ma.SQLAlchemySchema):
 
     email = ma.auto_field()
     password = ma.auto_field()
+
+
+class UserUpdateSchema(ma.SQLAlchemySchema):
+    class Meta:
+        model = User
+
+    username = ma.auto_field(required=False)
+    first_name = ma.auto_field(required=False)
+    last_name = ma.auto_field(required=False)
+    email = ma.auto_field(required=False)
+    phone = ma.auto_field(required=False)
+    role = ma.String(required=False)
+

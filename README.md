@@ -15,7 +15,7 @@
 ## Layered architecture
 ```
 Uses layered structure, so that it does permit more
-distributed means for code structurng.
+distributed means for code structuring.
 ```
 
 ## APIs
